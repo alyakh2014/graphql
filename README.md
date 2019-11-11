@@ -1,3 +1,3 @@
 # graphql
-GraphQL study
-Use MLab online dataBase 
+# GraphQL study
+# Use MLab online dataBase 
