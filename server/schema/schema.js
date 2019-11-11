@@ -7,15 +7,15 @@ const {GraphQLString,
     GraphQLInt,
     GraphQLList} = graphql;
 
-const movies = [
-    {id: '1', name: 'Pulp Fiction',genre: 'Crime', directorId: 1},
-    {id: '2', name: '1984',genre: 'Sci-Fi', directorId: 2},
-    {id: 3, name: 'V for vendetta',genre: 'Sci-Fi-Triller', directorId: 3},
-    {id: '4', name: 'Snatch',genre: 'Crime-Comedy', directorId: 4},
-    {id: '5', name: 'Reservoir Dogs',genre: 'Crime', directorId: 1},
-    {id: '6', name: 'The Hateful Eight',genre: 'Sci-Fi', directorId: 1},
-    {id: 7, name: 'Inglourious Basterds',genre: 'Sci-Fi-Triller', directorId: 1},
-    {id: 8, name: 'Lock, Stock and Two Smoking Barrels',genre: 'Crime-Comedy', directorId: 4},
+/*const movies = [
+    {id: '1', name: 'Pulp Fiction',genre: 'Crime', directorId: 1}, //5dc9a1b41c9d440000b75815
+    {id: '2', name: '1984',genre: 'Sci-Fi', directorId: 2}, //5dc9a1fa1c9d440000b75817
+    {id: 3, name: 'V for vendetta',genre: 'Sci-Fi-Triller', directorId: 3}, //5dc9a23d1c9d440000b75819
+    {id: '4', name: 'Snatch',genre: 'Crime-Comedy', directorId: 4}, //5dc9a2521c9d440000b7581b
+    {id: '5', name: 'Reservoir Dogs',genre: 'Crime', directorId: 1}, //5dc9a1b41c9d440000b75815
+    {id: '6', name: 'The Hateful Eight',genre: 'Sci-Fi', directorId: 1}, //5dc9a1b41c9d440000b75815
+    {id: 7, name: 'Inglourious Basterds',genre: 'Sci-Fi-Triller', directorId: 1}, //5dc9a1b41c9d440000b75815
+    {id: 8, name: 'Lock, Stock and Two Smoking Barrels',genre: 'Crime-Comedy', directorId: 4}, //5dc9a2521c9d440000b7581b
 ];
 
 const directors = [
@@ -23,7 +23,7 @@ const directors = [
     {id: '2', name: 'Michael Radford', age: 72},
     {id: '3', name: 'James McTiegue', age: 51},
     {id: '4', name: 'Guy Ritchie', age: 50},
-];
+];*/
 
 //new schema
 const MovieType = new GraphQLObjectType({
